@@ -1,1 +1,1 @@
-https://univerblog.github.io/rsschool-cv/cv
+https://univerblog.github.io/rsschool-cv
