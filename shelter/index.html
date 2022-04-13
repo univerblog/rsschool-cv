@@ -9,11 +9,6 @@
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-    <!-- Fonts end-->
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -46,7 +41,7 @@
             <div class="my-header-cont">                               
                 <h1>Not only people need a house</h1>
                 <p>We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                <a href="pets.html">Make a friend</a>
+                <a href="index.html#friends">Make a friend</a>
             </div>
         </div>
     </div>
@@ -64,7 +59,7 @@
         </div>
     </div>
 
-    <div class="wrap friends-home grey">
+    <div class="wrap friends-home grey" id="friends">
         <div class="main">
             <h3>Our friends who<br> are looking for a house</h3>
             <div class="owl-carousel carusel-home">
@@ -202,7 +197,7 @@
 
     <div class="wrap help-home white">
         <div class="main">
-            <h3>How you can help our shelter</h3>
+            <h3>How you can help<br> our shelter</h3>
             <div class="all-help-block">
                 <div class="help-block">
                     <img src="img/icon/icon-pet-food.svg" alt="">
@@ -266,13 +261,13 @@
     <footer>
         <div class="main">
             <div class="foot-block">
-                <h3>For questions and suggestions</h3>
+                <h3>For questions<br> and suggestions</h3>
                 <a href="mailto:email@shelter.com" class="foot-mail">email@shelter.com</a><br>
                 <a href="tel:+136745677554" class="foot-phone">+13 674 567 75 54</a>
             </div>
             <div class="foot-block">
-                <h3>We are waiting for your visit</h3>
-                <a href="https://www.google.com/maps/@46.0655833,34.298531,10z?hl=ru" class="foot-map">1 Central Street, Boston (entrance from the store)</a><br>
+                <h3>We are waiting<br> for your visit</h3>
+                <a href="https://www.google.com/maps/@46.0655833,34.298531,10z?hl=ru" class="foot-map">1 Central Street, Boston<br> (entrance from the store)</a><br>
                 <a href="https://www.google.com/maps/@46.0655833,34.298531,10z?hl=ru" class="foot-map">18 South Park, London </a>
             </div>
         </div>
@@ -292,8 +287,9 @@
     <script>
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
-                margin : 90,
+                margin : 70,
                 nav : true,
+                loop: true,
                 navText: [],
                 navElement : 'div',
                 responsive:{

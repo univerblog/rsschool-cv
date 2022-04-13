@@ -1,5 +1,5 @@
 
-let allOpen = document.querySelectorAll('.block-pets .learn-more');
+let allOpen = document.querySelectorAll('.block-pets');
 
 
 for (let i = 0; i < allOpen.length; i++) {
@@ -9,7 +9,7 @@ let modalBg = document.querySelector('.modal_bg');
 let modalCont = document.querySelector('.modal_content');
 
 function openFun() {
-    let content = this.parentElement.cloneNode(true);
+    let content = this;//.parentElement.cloneNode(true);
     let image = content.querySelector('img').src;
     let title = content.querySelector('span').innerHTML;
     let info = content.querySelector('.info').innerHTML;
