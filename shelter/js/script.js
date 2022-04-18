@@ -27,4 +27,12 @@ document.querySelector('.modal_close').addEventListener('click', function () {
     modalCont.innerHTML = '';
 	document.querySelector('body').classList.remove('hidden');
 })
+
+
+//// adaptive menu
+document.querySelector('#nav-toggle').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('body').classList.toggle('hide');
+    document.querySelector('nav').classList.toggle('open-menu');
+});
 	

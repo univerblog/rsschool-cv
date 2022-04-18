@@ -54,7 +54,8 @@ header nav ul li a:after,
 .card-link,
 .block-pets,
 .modal_close,
-.paginate a {
+.paginate a,
+#nav-toggle {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
