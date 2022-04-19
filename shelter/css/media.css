@@ -536,11 +536,10 @@
     display:block !important;
 }
 
-    .header-2 {
-       
-        padding:30px 40px;
-       
-    }
+.header-2 {
+  padding:30px 10px;
+}
+   
 
 }
 
