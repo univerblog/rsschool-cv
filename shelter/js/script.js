@@ -17,7 +17,6 @@ allAnkorLink.forEach ( el => {
               document.querySelector('body').classList.remove('hide');
               document.querySelector('nav').classList.remove('open-menu');  
         })  
-        console.log( blockID + '' );
     }
     
 } )
